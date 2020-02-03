@@ -1,8 +1,8 @@
-# [SFDCBrewery](https://sfdcbrewery.github.io/) Pokemon Open Source Lightning Web Component using Fetch API   
+# Pokemon Open Source Lightning Web Component using Fetch API   
 
 This is an open source Lightning Web Component that returns the abilities of your favourite Pokemon using [PokeAPI](https://pokeapi.co/).
 
-Live demo: https://pokemonlwc.herokuapp.com/
+Live demo: https://raj-pokemon-app.herokuapp.com/
 
 ## Deploy this app to Heroku
 
@@ -12,23 +12,25 @@ If you want to deploy LWC Recipes Open Source to Heroku - there's a button for t
 
 ## Local Development
 
-1. Clone the `Pok-monLightningWebComponent` repository:
+1. Clone the `LWC_PokemonApp` repository:
 
 ```
-git clone https://github.com/sfdcbrewery/Pok-monLightningWebComponent/
-cd Pok-monLightningWebComponent
+git clone https://github.com/rohitraj-globus/LWC_PokemonApp
+cd LWC_PokemonApp
 ```
 
 2. Install the project dependencies using `yarn` (or `npm`, if you prefer that alternatively)
 
 ```
-yarn install
+yarn install || npm install
 ```
 
 3. Start the app in watch mode.
 
 ```
-yarn watch
+yarn watch || num run watch 
 ```
 
 4. Enjoy the app!
+
+Rohit Raj
