@@ -1,4 +1,4 @@
-# Pokemon Open Source Lightning Web Component using Fetch API   
+# Raj's Pokemon Open Source Lightning Web Component using Fetch API   
 
 This is an open source Lightning Web Component that returns the abilities of your favourite Pokemon using [PokeAPI](https://pokeapi.co/).
 
