@@ -7,6 +7,6 @@ export default class ViewSource extends LightningElement {
     @api source;
 
     get sourceURL() {
-        return 'https://github.com/sfdcbrewery/Pok-monLightningWebComponent';
+        return 'https://github.com/rohitraj-globus/LWC_PokemonApp';
     }
 }
