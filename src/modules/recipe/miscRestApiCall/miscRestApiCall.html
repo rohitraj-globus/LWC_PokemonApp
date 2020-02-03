@@ -10,9 +10,10 @@
                 </p>
             </div>
             <template if:true={pokemons}>
-                <ul style="list-style-type:square;" >
+                <h1 style="font-size: 20px;font-weight: 200;margin:0px;"><b>{searchKey}</b> power are :</h1>
+                <ul style="list-style-type:square;margin-top: 0;" >
                     <template for:each={pokemons.abilities} for:item="pokemon">
-                        <li key={pokemon.id} class="search-results">
+                        <li key={pokemon.id} class="search-results" style="margin-left: 20px;list-style: disc;">
                             {pokemon.ability.name}
                         </li>
                     </template>
